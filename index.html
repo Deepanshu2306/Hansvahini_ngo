@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hansvahini Educational and Social Welfare Foundation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen font-sans">
+
+<header class="sticky top-0 bg-white shadow-md z-50">
+  <div class="container mx-auto px-6 lg:px-12 flex items-center justify-between py-4">
+    <a href="#home" class="flex items-center space-x-3">
+      <img 
+        src="image/icon.webp" 
+        alt="Logo of Hansvahini Educational and Social Welfare Foundation featuring a white swan in front of the earth with yellow and blue shield shapes background and red Hindi text in the center" 
+        class="w-16 h-16 object-contain rounded-full border-1 border-blue-600 shadow-lg"
+        onerror="this.onerror=null; this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bdce6f41-4694-476e-861e-0532b42cc6d7.png';"
+      />
+      <div>
+        <img src="image/00.png" alt="" class="w-50 h-10">
+        
+        <p class="text-xs font-semibold text-gray-600 select-none mt-2">.  Educational & Social Welfare Foundation</p>
+      </div>
+    </a>
+
+  <nav class="hidden lg:flex items-center space-x-8 font-medium text-gray-700">
+  <!-- Home -->
+  <a href="#home" class="hover:text-blue-600 transition duration-300">Home</a>
+
+  <!-- About Us -->
+  <div class="relative dropdown group cursor-pointer">
+    <a class="inline-flex items-center hover:text-blue-600 transition duration-300 select-none">
+      About Us
+      <svg class="ml-1 w-3 h-3 stroke-current" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6"></path>
+      </svg>
+    </a>
+    <div class="dropdown-menu absolute top-full left-0 mt-2 w-56 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+      <a href="#director-message" class="block px-4 py-2 hover:bg-blue-50 transition">Director Message</a>
+      <a href="#management-members" class="block px-4 py-2 hover:bg-blue-50 transition">Management Members</a>
+      <a href="#mission-vision" class="block px-4 py-2 hover:bg-blue-50 transition">Mission & Vision</a>
+      <a href="#testimonials" class="block px-4 py-2 hover:bg-blue-50 transition">Testimonials</a>
+    </div>
+  </div>
+
+  <!-- Courses -->
+  <div class="relative dropdown group cursor-pointer">
+    <a class="inline-flex items-center hover:text-blue-600 transition duration-300 select-none">
+      Courses
+      <svg class="ml-1 w-3 h-3 stroke-current" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6"></path>
+      </svg>
+    </a>
+    <div class="dropdown-menu absolute top-full left-0 mt-2 w-64 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+      <a href="#computer-application" class="block px-4 py-2 hover:bg-blue-50 transition">Computer Application</a>
+      <a href="#computer-saksharta-mission" class="block px-4 py-2 hover:bg-blue-50 transition">Computer Sakasharta Mission</a>
+      <a href="#csdm" class="block px-4 py-2 hover:bg-blue-50 transition">CSDM</a>
+      <a href="#financial-accounting" class="block px-4 py-2 hover:bg-blue-50 transition">Financial Accounting</a>
+      <a href="#graphic-designing" class="block px-4 py-2 hover:bg-blue-50 transition">Graphic Designing</a>
+      <a href="#hardware-networking" class="block px-4 py-2 hover:bg-blue-50 transition">Hardware & Networking</a>
+      <a href="#video-audio-editing" class="block px-4 py-2 hover:bg-blue-50 transition">Video & Audio Editing</a>
+      <a href="#web-development" class="block px-4 py-2 hover:bg-blue-50 transition">Web Development</a>
+    </div>
+  </div>
+
+  <!-- Franchise -->
+  <div class="relative dropdown group cursor-pointer">
+    <a class="inline-flex items-center hover:text-blue-600 transition duration-300 select-none">
+      Franchise
+      <svg class="ml-1 w-3 h-3 stroke-current" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6"></path>
+      </svg>
+    </a>
+    <div class="dropdown-menu absolute top-full left-0 mt-2 w-64 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+      <a href="#business-module" class="block px-4 py-2 hover:bg-blue-50 transition">Business Module</a>
+      <a href="#franchise-advantages" class="block px-4 py-2 hover:bg-blue-50 transition">Franchise Advantages</a>
+      <a href="#hansvahini-alliances" class="block px-4 py-2 hover:bg-blue-50 transition">HANSVAHINI Alliances</a>
+      <a href="#hansvahini-franchise" class="block px-4 py-2 hover:bg-blue-50 transition">HANSVAHINI Franchise</a>
+      <a href="#instant-apply" class="block px-4 py-2 hover:bg-blue-50 transition">Instant Apply</a>
+      <a href="#branch-login" class="block px-4 py-2 hover:bg-blue-50 transition">Branch Login</a>
+    </div>
+  </div>
+
+  <!-- Student -->
+  <div class="relative dropdown group cursor-pointer">
+    <a class="inline-flex items-center hover:text-blue-600 transition duration-300 select-none">
+      Student
+      <svg class="ml-1 w-3 h-3 stroke-current" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6"></path>
+      </svg>
+    </a>
+    <div class="dropdown-menu absolute top-full left-0 mt-2 w-64 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+      <a href="#certificate-verification" class="block px-4 py-2 hover:bg-blue-50 transition">Certificate Verification</a>
+      <a href="#certification-process" class="block px-4 py-2 hover:bg-blue-50 transition">Certification Process</a>
+      <a href="#enrolment-status" class="block px-4 py-2 hover:bg-blue-50 transition">Enrolment Status</a>
+      <a href="#registration-process" class="block px-4 py-2 hover:bg-blue-50 transition">Registration Process</a>
+      <a href="#student-help-desk" class="block px-4 py-2 hover:bg-blue-50 transition">Student Help Desk</a>
+      <a href="#student-login" class="block px-4 py-2 hover:bg-blue-50 transition">Student Login</a>
+    </div>
+  </div>
+
+  <!-- Media Room -->
+  <div class="relative dropdown group cursor-pointer">
+    <a class="inline-flex items-center hover:text-blue-600 transition duration-300 select-none">
+      Media Room
+      <svg class="ml-1 w-3 h-3 stroke-current" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6"></path>
+      </svg>
+    </a>
+    <div class="dropdown-menu absolute top-full left-0 mt-2 w-56 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+      <a href="#electronic-media" class="block px-4 py-2 hover:bg-blue-50 transition">Electronic Media</a>
+      <a href="#news-event" class="block px-4 py-2 hover:bg-blue-50 transition">News & Event</a>
+      <a href="#photo-gallery" class="block px-4 py-2 hover:bg-blue-50 transition">Photo Gallery</a>
+      <a href="#print-media" class="block px-4 py-2 hover:bg-blue-50 transition">Print Media</a>
+      <a href="#video-gallery" class="block px-4 py-2 hover:bg-blue-50 transition">Video Gallery</a>
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <a href="#contact-us" class="hover:text-blue-600 transition duration-300">Contact Us</a>
+</nav>
+
+<!-- Mobile menu button -->
+<button aria-label="Open menu" id="btn-mobile-menu" class="lg:hidden text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 p-2 rounded-md">
+  <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+    <path d="M4 8h16M4 16h16"></path>
+  </svg>
+</button>
+
+<!-- Mobile menu -->
+<nav id="mobile-menu" class="hidden bg-white border-t border-gray-200 shadow-lg lg:hidden text-gray-700 font-medium">
+  <ul class="flex flex-col px-4 py-2 space-y-1">
+    <li><a href="#home" class="block py-2 px-2 rounded hover:bg-blue-100">Home</a></li>
+
+    <li class="mobile-dropdown">
+      <button class="w-full flex justify-between items-center py-2 px-2 rounded hover:bg-blue-100 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-600" onclick="toggleDropdown(this)">
+        About Us
+        <svg class="w-4 h-4 ml-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+        </svg>
+      </button>
+      <ul class="mobile-submenu hidden pl-4 mt-1 border-l border-gray-300">
+        <li><a href="#director-message" class="block py-1 px-2 rounded hover:bg-blue-100">Director Message</a></li>
+        <li><a href="#management-members" class="block py-1 px-2 rounded hover:bg-blue-100">Management Members</a></li>
+        <li><a href="#mission-vision" class="block py-1 px-2 rounded hover:bg-blue-100">Mission & Vision</a></li>
+        <li><a href="#testimonials" class="block py-1 px-2 rounded hover:bg-blue-100">Testimonials</a></li>
+      </ul>
+    </li>
+
+    <li class="mobile-dropdown">
+      <button class="w-full flex justify-between items-center py-2 px-2 rounded hover:bg-blue-100 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-600" onclick="toggleDropdown(this)">
+        Courses
+        <svg class="w-4 h-4 ml-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+        </svg>
+      </button>
+      <ul class="mobile-submenu hidden pl-4 mt-1 border-l border-gray-300">
+        <li><a href="#computer-application" class="block py-1 px-2 rounded hover:bg-blue-100">Computer Application</a></li>
+        <li><a href="#computer-saksharta-mission" class="block py-1 px-2 rounded hover:bg-blue-100">Computer Sakasharta Mission</a></li>
+        <li><a href="#csdm" class="block py-1 px-2 rounded hover:bg-blue-100">CSDM</a></li>
+        <li><a href="#financial-accounting" class="block py-1 px-2 rounded hover:bg-blue-100">Financial Accounting</a></li>
+        <li><a href="#graphic-designing" class="block py-1 px-2 rounded hover:bg-blue-100">Graphic Designing</a></li>
+        <li><a href="#hardware-networking" class="block py-1 px-2 rounded hover:bg-blue-100">Hardware & Networking</a></li>
+        <li><a href="#video-audio-editing" class="block py-1 px-2 rounded hover:bg-blue-100">Video & Audio Editing</a></li>
+        <li><a href="#web-development" class="block py-1 px-2 rounded hover:bg-blue-100">Web Development</a></li>
+      </ul>
+    </li>
+
+    <li class="mobile-dropdown">
+      <button class="w-full flex justify-between items-center py-2 px-2 rounded hover:bg-blue-100 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-600" onclick="toggleDropdown(this)">
+        Franchise
+        <svg class="w-4 h-4 ml-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+        </svg>
+      </button>
+      <ul class="mobile-submenu hidden pl-4 mt-1 border-l border-gray-300">
+        <li><a href="#business-module" class="block py-1 px-2 rounded hover:bg-blue-100">Business Module</a></li>
+        <li><a href="#franchise-advantages" class="block py-1 px-2 rounded hover:bg-blue-100">Franchise Advantages</a></li>
+        <li><a href="#hansvahini-alliances" class="block py-1 px-2 rounded hover:bg-blue-100">HANSVAHINI Alliances</a></li>
+        <li><a href="#hansvahini-franchise" class="block py-1 px-2 rounded hover:bg-blue-100">HANSVAHINI Franchise</a></li>
+        <li><a href="#instant-apply" class="block py-1 px-2 rounded hover:bg-blue-100">Instant Apply</a></li>
+        <li><a href="#branch-login" class="block py-1 px-2 rounded hover:bg-blue-100">Branch Login</a></li>
+      </ul>
+    </li>
+
+    <li class="mobile-dropdown">
+      <button class="w-full flex justify-between items-center py-2 px-2 rounded hover:bg-blue-100 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-600" onclick="toggleDropdown(this)">
+        Student
+        <svg class="w-4 h-4 ml-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+        </svg>
+      </button>
+      <ul class="mobile-submenu hidden pl-4 mt-1 border-l border-gray-300">
+        <li><a href="#certificate-verification" class="block py-1 px-2 rounded hover:bg-blue-100">Certificate Verification</a></li>
+        <li><a href="#certification-process" class="block py-1 px-2 rounded hover:bg-blue-100">Certification Process</a></li>
+        <li><a href="#enrolment-status" class="block py-1 px-2 rounded hover:bg-blue-100">Enrolment Status</a></li>
+        <li><a href="#registration-process" class="block py-1 px-2 rounded hover:bg-blue-100">Registration Process</a></li>
+        <li><a href="#student-help-desk" class="block py-1 px-2 rounded hover:bg-blue-100">Student Help Desk</a></li>
+        <li><a href="#student-login" class="block py-1 px-2 rounded hover:bg-blue-100">Student Login</a></li>
+      </ul>
+    </li>
+
+    <li class="mobile-dropdown">
+      <button class="w-full flex justify-between items-center py-2 px-2 rounded hover:bg-blue-100 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-600" onclick="toggleDropdown(this)">
+        Media Room
+        <svg class="w-4 h-4 ml-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+        </svg>
+      </button>
+      <ul class="mobile-submenu hidden pl-4 mt-1 border-l border-gray-300">
+        <li><a href="#electronic-media" class="block py-1 px-2 rounded hover:bg-blue-100">Electronic Media</a></li>
+        <li><a href="#news-event" class="block py-1 px-2 rounded hover:bg-blue-100">News & Event</a></li>
+        <li><a href="#photo-gallery" class="block py-1 px-2 rounded hover:bg-blue-100">Photo Gallery</a></li>
+        <li><a href="#print-media" class="block py-1 px-2 rounded hover:bg-blue-100">Print Media</a></li>
+        <li><a href="#video-gallery" class="block py-1 px-2 rounded hover:bg-blue-100">Video Gallery</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#contact-us" class="block py-2 px-2 rounded hover:bg-blue-100">Contact Us</a></li>
+  </ul>
+</nav>
+
+<script>
+  function toggleDropdown(button) {
+    const submenu = button.nextElementSibling;
+    submenu.classList.toggle('hidden');
+  }
+</script>
+
+</header>
+
+<main class="flex-grow text-justify">
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-bg text-white py-24 px-6 md:px-12 text-center flex flex-col items-center justify-center min-h-[400px]">
+    <img src="image/1-1536x309.webp" class="w-full h-40 object-contain filter drop-shadow-md bg-cover" alt="">
+
+    <h2 class="text-4xl md:text-6xl font-extrabold drop-shadow-lg max-w-4xl leading-tight mt-3">
+      Educational and Social Welfare Foundation
+    </h2>
+    <p class="mt-6 text-lg md:text-2xl max-w-xl font-semibold drop-shadow-md">
+      Incorporated under Section 8 of the Companies Act, 2013
+    </p>
+    <a href="#hero2" class="mt-10 inline-block bg-white text-blue-700 font-bold px-8 py-4 rounded shadow-lg transition hover:bg-blue-50">
+      Learn More About Us
+    </a>
+     <div class="mt-10 flex flex-wrap justify-center gap-4 mb-12">
+      <a href="#hero2" class="mt-10 inline-block bg-blue-700 hover:bg-blue-800 font-bold px-8 py-4 rounded-full font-semibold hover:bg-blue-100 transition">
+      Computer Institute
+      </a>
+      <a href="https://deepanshu2306.github.io/Hansvahini/#home" class="mt-10 inline-block bg-blue-700 hover:bg-blue-800 font-bold px-8 py-4 rounded-full font-semibold hover:bg-blue-100 transition">
+      Hanswahini Convent School
+      </a>
+      <a href="#hero2" class="mt-10 inline-block bg-blue-700 hover:bg-blue-800 font-bold px-8 py-4 rounded-full font-semibold hover:bg-blue-100 transition">
+      Computer Branches
+      </a>
+      <a href="#hero2" class="mt-10 inline-block bg-blue-700 hover:bg-blue-800 font-bold px-8 py-4 rounded-full font-semibold hover:bg-blue-100 transition">
+      Hanswahini Pratibha Khoj Pariksha
+      </a>
+      <a href="#hero2" class="mt-10 inline-block bg-blue-700 hover:bg-blue-800 font-bold px-8 py-4 rounded-full font-semibold hover:bg-blue-100 transition">
+      Hanswahini YouTube Channel
+      </a>
+    </div>
+  </section>
+
+  <!-- Hero Section with Slides Only -->
+<section id="hero2" class="relative bg-gradient-to-r from-blue-800 to-blue-600 text-white">
+  <div class="container mx-auto px-6 py-20">
+    <div class="slider-container">
+      <!-- Image Slider -->
+      <div class="relative h-96 md:h-[500px]">
+        <!-- Slide 1: Computer Institute -->
+        <div class="slide active absolute inset-0 rounded-xl overflow-hidden transition-opacity duration-500">
+          <a href="#computer-institute" class="block h-full">
+            <img 
+              src="image/cs.webp" 
+              alt="Computer Institute" 
+              class="w-full h-full object-cover brightness-75 hover:brightness-90 transition"
+            />
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 md:p-8">
+              <h2 class="text-2xl md:text-4xl font-bold text-white">Computer Institute</h2>
+            </div>
+          </a>
+        </div>
+        
+        <!-- Slide 2: Hanswahini Convent School -->
+        <div class="slide absolute inset-0 rounded-xl overflow-hidden transition-opacity duration-500 opacity-0">
+          <a href="#hanswahini-convent-school" class="block h-full">
+            <img 
+              src="image/em.webp" 
+              alt="Hanswahini Convent School" 
+              class="w-full h-full object-cover brightness-75 hover:brightness-90 transition"
+            />
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 md:p-8">
+              <h2 class="text-2xl md:text-4xl font-bold text-white">Hanswahini Convent School</h2>
+            </div>
+          </a>
+        </div>
+        
+        <!-- Slide 3: Computer Branches -->
+        <div class="slide absolute inset-0 rounded-xl overflow-hidden transition-opacity duration-500 opacity-0">
+          <a href="#computer-branches" class="block h-full">
+            <img 
+              src="https://placehold.co/1200x600?text=Computer+Branches" 
+              alt="Computer Branches" 
+              class="w-full h-full object-cover brightness-75 hover:brightness-90 transition"
+            />
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 md:p-8">
+              <h2 class="text-2xl md:text-4xl font-bold text-white">Computer Branches</h2>
+            </div>
+          </a>
+        </div>
+        
+        <!-- Slide 4: Pratibha Khoj Pariksha -->
+        <div class="slide absolute inset-0 rounded-xl overflow-hidden transition-opacity duration-500 opacity-0">
+          <a href="#pratibha-khoj-pariksha" class="block h-full">
+            <img 
+              src="image/1.webp" 
+              alt="Hanswahini Pratibha Khoj Pariksha" 
+              class="w-full h-full object-cover brightness-75 hover:brightness-90 transition"
+            />
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 md:p-8">
+              <h2 class="text-2xl md:text-4xl font-bold text-white">Hanswahini Pratibha Khoj Pariksha</h2>
+            </div>
+          </a>
+        </div>
+        
+        <!-- Slide 5: YouTube Channel -->
+        <div class="slide absolute inset-0 rounded-xl overflow-hidden transition-opacity duration-500 opacity-0">
+          <a href="#youtube-channel" class="block h-full">
+            <img 
+              src="image/yr.png" 
+              alt="Hanswahini YouTube Channel" 
+              class="w-full h-full object-cover brightness-75 hover:brightness-90 transition"
+            />
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 md:p-8">
+              <h2 class="text-2xl md:text-4xl font-bold text-white">Hanswahini YouTube Channel</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Navigation Buttons -->
+      <div class="flex justify-center mt-4 space-x-2">
+        <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-30 hover:opacity-100 transition" data-index="0"></button>
+        <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-30 hover:opacity-100 transition" data-index="1"></button>
+        <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-30 hover:opacity-100 transition" data-index="2"></button>
+        <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-30 hover:opacity-100 transition" data-index="3"></button>
+        <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-30 hover:opacity-100 transition" data-index="4"></button>
+      </div>
+    </div>
+  </div>
+
+  
+  
+</section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="max-w-7xl mx-auto px-6 md:px-12 py-20">
+    <h3 class="text-3xl font-bold text-blue-700 mb-8 border-b-4 border-blue-600 w-fit pb-2">
+      About Us
+    </h3>
+
+    <article id="director-message" class="mb-12">
+      <h4 class="text-2xl font-semibold text-blue-800 mb-3">Director Message</h4>
+      <p class="leading-relaxed text-gray-700 max-w-4xl">
+        HANSVAHINI is an Hansvahini Education and Social Welfare Foundation which provides excellence in education & acquire a world class education status. With emphasis to rigorous training and education of our young aspirants in the fields of health science, technical and professional education.
+      </p>
+      <br>
+      <p class="leading-relaxed text-gray-700 max-w-4xl">
+        With the advent of Globalization the world order has changed and consequently the demands of industry and academia have also shown some considerable paradigm shift. To keep the students at par with these supplications of the industry and academia, we ensure experimental and interdisciplinary learning and research in various fields of studies.
+      </p>
+      <br>
+      <p class="leading-relaxed text-gray-700 max-w-4xl">
+        The present scenario of our society in the field of education is marked by social transformation, capacity building and empowerment of women force. HANSVAHINI with its humanistic approach is committed to achieve its goals.
+      </p>
+      <br>
+      <p class="leading-relaxed text-gray-700 max-w-4xl">
+        At Hansvahini Education and Social Welfare Foundation all our courses are tailormade to ensure proper growth and multi facet development of each and every student for a better career prospect. The state of the art infrastructure, qualified faculty, latest technology based on advanced programing make the institute one of its kind for the students who aspire to touch the pinnacle of success. Our principal aim of the institute is to fulfil its commitment of high quality education, with a mission to serve community at large.
+      </p>
+      <br>
+      <p class="leading-relaxed text-gray-700 max-w-4xl">
+        I strongly believe that your involvement with the institute will be transformed into a reality and help the students realise their dream and goal in life. We look forward to a cordial and progressive relationship with you.
+      </p>
+       <br>
+      <p class="leading-relaxed text-gray-700 max-w-4xl">
+       I am sure that your involvement with the institute will transform into sound investment. We look forward to establishing a cordial and progressive relationship with you.
+      </p>
+
+    </article>
+
+    <article id="management-members" class="mb-12">
+  <h4 class="text-2xl font-semibold text-blue-800 mb-3">Company Founders</h4>
+  <p class="text-gray-700 mb-6 max-w-4xl">Nitesh Singh is Director of Hansvahini Education and Social Welfare Foundation. Bhuvneshwar Singh is the Co-Director of this Education.</p>
+
+  <div class="founders-grid grid md:grid-cols-2 gap-8 mt-8">
+    <!-- Founder 1 -->
+    <div class="founder-card bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="founder-image h-64 bg-gray-100">
+        <img src="image/111.jpg" alt="Portrait of Nitesh Singh, founder & CEO - A professional Indian businessman in formal attire standing in front of an educational institution" class="w-full h-full object-cover" />
+      </div>
+      <div class="p-6">
+        <h5 class="text-xl font-bold text-blue-900">Nitesh Singh</h5>
+        <p class="text-sm font-medium text-blue-700 mb-2">FOUNDER & CEO</p>
+        <p class="text-gray-600">Nitesh Singh is Founder & CEO of Hansvahini Education and Social Welfare Foundation which was Established in 2010.</p>
+      </div>
+    </div>
+
+    <!-- Founder 2 -->
+    <div class="founder-card bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="founder-image h-64 bg-gray-100">
+        <img src="image/222.jpg" alt="Portrait of Bhuvneshwar Singh, co-founder & CTO - A serious-looking Indian professional in business casual wear in a modern office environment" class="w-full h-full object-cover" />
+      </div>
+      <div class="p-6">
+        <h5 class="text-xl font-bold text-blue-900">Bhuvaneshwar Singh</h5>
+        <p class="text-sm font-medium text-blue-700 mb-2">CO-FOUNDER & CTO</p>
+        <p class="text-gray-600">Bhuvneshwar Singh is the Co-founder & CTO of Hansvahini Education and Social Welfare Foundation.</p>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .founders-grid {
+      margin: 2rem 0;
+    }
+    .founder-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .founder-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .founder-image {
+      position: relative;
+      overflow: hidden;
+    }
+  </style>
+</article>
+
+
+
+    <article id="mission-vision" class="mb-12">
+  <h4 class="text-2xl font-semibold text-blue-800 mb-3">MISSION & VISION</h4>
+  <p class="max-w-4xl text-gray-700 mb-3">
+    <strong>MISSION:</strong> To assist students in gaining training and knowledge to build their capacity and make them employable and independent. To provide ample employment opportunities to the trained youths. To facilitate entrepreneurship by providing marketing, sales know-how, and financial support to the trained and qualified youths. To train one million youth, as per “National Occupational Standards” set by various national and state governing bodies.
+  </p>
+  <p class="max-w-4xl text-gray-700">
+    <strong>VISION:</strong> To provide premium quality learning opportunities focusing on education and research to build a strong workforce which can contribute towards the overall development of the country.
+  </p>
+  <h4 class="text-2xl font-semibold text-blue-800 mb-3">VALUES</h4>
+  <ul class="list-disc list-inside text-gray-700 max-w-4xl">
+    <li>Encouraging innovation</li>
+    <li>Respectable life & dignity</li>
+    <li>Integrity</li>
+    <li>Freedom to learn & grow</li>
+  </ul>
+</article>
+
+<article id="testimonials" class="mb-12">
+  <h4 class="text-2xl font-semibold text-blue-800 mb-3">Testimonials</h4>
+  <div class="space-y-6 max-w-4xl">
+    <!-- Testimonial 1 -->
+    <div class="flex items-start space-x-4">
+      <img src="image/222.webp" alt="Abhishek Kumar" class="w-16 h-16 rounded-full object-cover" />
+      <div>
+        <blockquote class="bg-blue-50 border-l-4 border-blue-400 pl-4 text-gray-700 italic rounded shadow-sm">
+          "Our team is happy to work with India’s best computer training Institute."
+        </blockquote>
+        <p class="text-gray-600 font-semibold">– Abhishek Kumar, Patna</p>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="flex items-start space-x-4">
+      <img src="image/111.webp" alt="Mr. Pramod Sharma" class="w-16 h-16 rounded-full object-cover" />
+      <div>
+        <blockquote class="bg-blue-50 border-l-4 border-blue-400 pl-4 text-gray-700 italic rounded shadow-sm">
+          "He has grown year after year in the training and education sector."
+        </blockquote>
+        <p class="text-gray-600 font-semibold">– Mr. Pramod Sharma, UP</p>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="flex items-start space-x-4">
+      <img src="image/222.webp" alt="Ghatshila" class="w-16 h-16 rounded-full object-cover" />
+      <div>
+        <blockquote class="bg-blue-50 border-l-4 border-blue-400 pl-4 text-gray-700 italic rounded shadow-sm">
+          "I am glad to be part of the leading and most popular Computer Training Institutes."
+        </blockquote>
+        <p class="text-gray-600 font-semibold">– Ghatshila, Jharkhand</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+  </section>
+
+  <!-- Courses Section -->
+ <section id="courses" class="bg-blue-50 py-20 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto">
+    <h3 class="text-3xl font-bold text-blue-800 mb-12 border-b-4 border-blue-600 w-fit pb-2">
+      Courses
+    </h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <!-- Computer Application Course -->
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default col-span-1 md:col-span-2 lg:col-span-3">
+        <h4 id="computer-application" class="text-xl font-semibold text-blue-700 mb-4 text-center">Computer Application Courses</h4>
+        
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white rounded-lg overflow-hidden">
+            <thead class="bg-blue-600 text-white">
+              <tr>
+                <th class="py-3 px-4 text-left">Program Name</th>
+                <th class="py-3 px-4 text-left">Eligibility</th>
+                <th class="py-3 px-4 text-left">Duration</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <!-- Career Programs -->
+              <tr class="bg-blue-50">
+                <td colspan="3" class="py-2 px-4 font-semibold text-blue-800">Career Programs</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Diploma in Computer Application</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">6 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Certification In Computer Application & Programming</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Diploma in Computer Studies</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">9 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Advance Diploma in Computer Training</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Certificate In Information Technology Application</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">6 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Career Diploma in Computer Application</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">15 Months</td>
+              </tr>
+
+              <!-- Professional Courses -->
+              <tr class="bg-blue-50">
+                <td colspan="3" class="py-2 px-4 font-semibold text-blue-800">Professional Courses</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Advance Diploma in Computer Application</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Diploma in Information Technology</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Advance Diploma in Faculty Management</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Advance Diploma in Computer Teacher Training</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">PG Diploma in Computer Application</td>
+                <td class="py-3 px-4">Graduation</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Advance Diploma in Computer Studies</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">12 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Professional Diploma in Computer Application</td>
+                <td class="py-3 px-4">10+2</td>
+                <td class="py-3 px-4">6 Months</td>
+              </tr>
+
+              <!-- Short-Term Programs -->
+              <tr class="bg-blue-50">
+                <td colspan="3" class="py-2 px-4 font-semibold text-blue-800">Short-Term Programs</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Basic Computer Course</td>
+                <td class="py-3 px-4">8th Onward</td>
+                <td class="py-3 px-4">3 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Little Genius</td>
+                <td class="py-3 px-4">10th + Above</td>
+                <td class="py-3 px-4">6 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Certificate in Computer Application</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">3 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Internet & Email</td>
+                <td class="py-3 px-4">8th</td>
+                <td class="py-3 px-4">10 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Course on Computer Concepts</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">3 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Certificate in Microsoft Office</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">3 Months</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Microsoft Excel</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">30 Days</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Digital Literacy Course</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">30 Days</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Microsoft Access</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">30 Days</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Microsoft Word</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">30 Days</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Microsoft PowerPoint</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">30 Days</td>
+              </tr>
+              <tr class="hover:bg-blue-50">
+                <td class="py-3 px-4">Microsoft Outlook</td>
+                <td class="py-3 px-4">10th</td>
+                <td class="py-3 px-4">30 Days</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Other Courses (keeping them unchanged) -->
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="computer-saksharta-mission" class="text-xl font-semibold text-blue-700 mb-3">Computer Saksharta Mission</h4>
+        <p class="text-gray-700">A government initiative to spread computer literacy among youth and rural communities.</p>
+      </div>
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="csdm" class="text-xl font-semibold text-blue-700 mb-3">CSDM</h4>
+        <p class="text-gray-700">Comprehensive Software Development Module for aspiring developers and IT professionals.</p>
+      </div>
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="financial-accounting" class="text-xl font-semibold text-blue-700 mb-3">Financial Accounting</h4>
+        <p class="text-gray-700">Basic and advanced accounting courses to build expertise in finance management and bookkeeping.</p>
+      </div>
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="graphic-designing" class="text-xl font-semibold text-blue-700 mb-3">Graphic Designing</h4>
+        <p class="text-gray-700">Discover creative design tools and techniques for visual media and digital artwork.</p>
+      </div>
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="hardware-networking" class="text-xl font-semibold text-blue-700 mb-3">Hardware & Networking</h4>
+        <p class="text-gray-700">Hands-on training in computer hardware installation, maintenance, and network management.</p>
+      </div>
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="video-audio-editing" class="text-xl font-semibold text-blue-700 mb-3">Video & Audio Editing</h4>
+        <p class="text-gray-700">Learn production and editing of professional videos and audio for media and events.</p>
+      </div>
+      <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition cursor-default">
+        <h4 id="web-development" class="text-xl font-semibold text-blue-700 mb-3">Web Development</h4>
+        <p class="text-gray-700">Complete web development course covering frontend, backend, and deployed projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Franchise Section -->
+  <section id="franchise" class="max-w-7xl mx-auto px-6 md:px-12 py-20">
+    <h3 class="text-3xl font-bold text-blue-700 mb-8 border-b-4 border-blue-600 w-fit pb-2">Franchise</h3>
+
+   <article id="business-module" class="mb-8">
+  <h4 class="text-2xl font-semibold mb-4 text-blue-800">Business Module</h4>
+  <p class="text-gray-700 max-w-4xl mb-6">
+    We provide a structured business module enabling franchisees to operate effectively and make a positive impact in their communities while sustaining profitable outcomes.
+  </p>
+
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h5 class="text-xl font-semibold text-blue-700 mb-4">Franchise Business Module (FAQ)</h5>
+    <div class="space-y-4">
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: What is the initial Franchisee fee?</p>
+        <p>A: Normally HANSVAHINI Franchise will cost you more than One Lac (1,00,000) rupees to become an HANSVAHINI Franchisee and authorized training partner. This fee will include the cost of starting materials, set-up information, and registration charges, etc.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: How much do I invest if I have to become an HANSVAHINI Franchise?</p>
+        <p>A: On the initial stage, the cost of acquiring the premises and computer, furniture, and others will be directly borne by the franchisee. If you are already running your centre, then no investment is required.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: How much space do I need to set up an HANSVAHINI centre?</p>
+        <p>A: The centre requires 600-1500 Sq. Ft. of carpet area to start on any floor. The property title should have legal permissions for running a computer training centre. The building should be neatly maintained and should have an environment appropriate for running an educational institute.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: Who is an ideal Franchise?</p>
+        <p>A: The Franchisee should be in the age group of 25-40 years, with at least a graduate degree. Engineers and people with an IT background will be preferred. We expect the Franchisee to be devoted exclusively to the HANSVAHINI business.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: How much is the royalty?</p>
+        <p>A: HANSVAHINI is not charging any royalty on your gross collections. The fees collected from students and other revenue sources will go directly to the franchisee account. HANSVAHINI will only work on very nominal fees towards the student’s registration and examination fees.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: What is your viability and profitability record?</p>
+        <p>A: We are proud to go through all our financials as part of Step 3 in our Expansion Face to Face Meeting, and you can see our track record and how much profit you can and will make.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: What will I need to do to succeed?</p>
+        <p>A: Take a look in our About You tab – there is a great checklist of actions we know will ensure you succeed – our top franchisees follow these tips day in, day out, and they are reaping the financial rewards big time.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: What Levels of training and support will I get?</p>
+        <p>A: We love training; many of the team are trainers in their particular field – in fact, we are training mad! Have a look at our Training & Support tab, and you will see you are trained at every stage of your development.</p>
+      </div>
+      <div class="border-l-4 border-blue-600 pl-4">
+        <p class="font-semibold">Q: Does it matter if I am not a ‘technical’ person?</p>
+        <p>A: Not at all – whatever technical or marketing questions your clients ask, the HANSVAHINI Support team always has the answers and skills to back you up. You can therefore concentrate on getting in front of as many local businesses as possible to build your revenue.</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+    <article id="franchise-advantages" class="mb-8">
+  <h4 class="text-2xl font-semibold mb-4 text-blue-800">Franchise Advantages</h4>
+  
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h5 class="text-xl font-semibold text-blue-700 mb-4">Advantages</h5>
+    
+    <div class="space-y-6">
+      <div class="border-l-4 border-blue-600 pl-4">
+        <h6 class="font-semibold">Branding</h6>
+        <p>Be a part of a nationally & internationally certified brand. We have a strong presence of over 17 years in the IT Education industry.</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Your Centre will benefit from government associations, i.e., RASCI, DOEACC & NIELIT from day one.</li>
+          <li>Your centre can gain affiliation in the Government’s PMKVY [Pradhan Mantri Kaushal Vikas Yojana] Project.</li>
+          <li>Advertising support through printed publicity material & national & local newspapers.</li>
+          <li>Participation in national & international activities of the organization.</li>
+          <li>National monthly newspaper YUVA Times (launched shortly).</li>
+        </ul>
+      </div>
+
+      <div class="border-l-4 border-blue-600 pl-4">
+        <h6 class="font-semibold">Operational</h6>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Free startup kit for opening of the centre.</li>
+          <li>Nominal one-time registration fee for courses.</li>
+          <li>No sharing in course fees and tuition fees of students.</li>
+          <li>Nominal centre authorization & renewal fee (one time only).</li>
+          <li>Right to decide by yourself:
+            <ul class="list-disc list-inside mt-1">
+              <li>Prescribe your own fee structure for courses.</li>
+              <li>Take admissions & conduct monthly examinations as per your own prescribed session.</li>
+              <li>Suggest new job-oriented courses.</li>
+            </ul>
+          </li>
+          <li>Proper guidance for centre management works.</li>
+          <li>Online student registration check facility.</li>
+          <li>Easy & fast dispatch facility for diploma certificates and other materials.</li>
+          <li>Online examination facility.</li>
+          <li>Monthly audit required.</li>
+          <li>National monthly newspaper YUVA Times (launched shortly).</li>
+        </ul>
+      </div>
+
+      <div class="border-l-4 border-blue-600 pl-4">
+        <h6 class="font-semibold">Certification</h6>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>National & international certification for courses under HANSVAHINI Education.</li>
+          <li>Anytime availability of study material.</li>
+          <li>HANSVAHINI publications – an in-house research team that understands the needs of our students across the country and designs and develops customized study material accordingly.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+   <article id="hansvahini-alliances" class="mb-8">
+  <h4 class="text-2xl font-semibold mb-4 text-blue-800">HANSVAHINI Alliances</h4>
+  <p class="text-gray-700 max-w-4xl mb-6">
+    In our 10 years of retrospective success journey, we have built a nationwide franchise strength. Now, we are mainstream, taking associations with government's progressive projects as key partners.
+  </p>
+
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h5 class="text-xl font-semibold text-blue-700 mb-6 text-center">Our Strategic Partnerships</h5>
+    
+    <div class="space-y-8">
+      <!-- PMKVY -->
+      <div class="flex flex-col md:flex-row gap-6 items-center">
+        <div class="w-full md:w-1/5 flex justify-center">
+          <img src="image/11.webp" alt="PMKVY Logo" class="h-20 object-contain" />
+        </div>
+        <div class="w-full md:w-4/5">
+          <h6 class="font-semibold text-lg text-blue-600 mb-2">Pradhan Mantri Kaushal Vikas Yojana (PMKVY)</h6>
+          <p class="text-gray-700">Government's flagship skill development scheme training 24 lakh youth with ₹1,500 Crore investment. We've affiliated 35+ centers nationwide to deliver certified skill training programs.</p>
+        </div>
+      </div>
+
+      <!-- Skill India -->
+      <div class="flex flex-col md:flex-row gap-6 items-center">
+        <div class="w-full md:w-1/5 flex justify-center">
+          <img src="image/22.webp" alt="Skill India Logo" class="h-20 object-contain" />
+        </div>
+        <div class="w-full md:w-4/5">
+          <h6 class="font-semibold text-lg text-blue-600 mb-2">Skill India</h6>
+          <p class="text-gray-700">National initiative creating skilled workforce through NSDC-partnered programs. Our centers provide certified training aligned with industry requirements across multiple sectors.</p>
+        </div>
+      </div>
+
+      <!-- Digital India -->
+      <div class="flex flex-col md:flex-row gap-6 items-center">
+        <div class="w-full md:w-1/5 flex justify-center">
+          <img src="image/33.webp" alt="Digital India Logo" class="h-20 object-contain" />
+        </div>
+        <div class="w-full md:w-4/5">
+          <h6 class="font-semibold text-lg text-blue-600 mb-2">Digital India</h6>
+          <p class="text-gray-700">Integrated digital education partner delivering e-governance aligned certification programs. Our digital literacy courses bridge the urban-rural technology divide.</p>
+        </div>
+      </div>
+
+      <!-- RASCI -->
+      <div class="flex flex-col md:flex-row gap-6 items-center">
+        <div class="w-full md:w-1/5 flex justify-center">
+          <img src="image/44.webp" alt="RASCI Logo" class="h-20 object-contain" />
+        </div>
+        <div class="w-full md:w-4/5">
+          <h6 class="font-semibold text-lg text-blue-600 mb-2">RASCI</h6>
+          <p class="text-gray-700">Recognized retail sector training partner providing NSQF-aligned certification programs. Our retail management courses develop industry-ready professionals.</p>
+        </div>
+      </div>
+
+      <!-- Certification Partners -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="flex flex-col items-center p-4 border border-gray-200 rounded-lg">
+          <img src="image/66.webp" alt="ICM Certification Logo" class="h-16 mb-3" />
+          <h6 class="font-semibold text-center">ICM Certification</h6>
+          <p class="text-sm text-gray-600 text-center">Accredited management system certification body</p>
+        </div>
+        
+        <div class="flex flex-col items-center p-4 border border-gray-200 rounded-lg">
+          <img src="image/77.webp" alt="Elite Certification Logo" class="h-16 mb-3" />
+          <h6 class="font-semibold text-center">Elite Certification</h6>
+          <p class="text-sm text-gray-600 text-center">Quality management system certification provider</p>
+        </div>
+        
+        <div class="flex flex-col items-center p-4 border border-gray-200 rounded-lg">
+          <img src="image/88.webp" alt="KVQA Logo" class="h-16 mb-3" />
+          <h6 class="font-semibold text-center">KVQA</h6>
+          <p class="text-sm text-gray-600 text-center">Internationally recognized quality assurance body</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+    <article id="hansvahini-franchise" class="mb-8">
+  <h4 class="text-2xl font-semibold mb-4 text-blue-800">HANSVAHINI Franchise</h4>
+  <p class="text-gray-700 max-w-4xl mb-4">
+    Own a part of our vision by becoming a franchise branch, delivering impactful education and social programs in your area. Computer software and hardware training education is witnessing robust growth year after year. India is fast emerging as a world leader in the field of IT, and there is a huge demand for skilled professionals in the IT sector.
+  </p>
+  <p class="text-gray-700 max-w-4xl mb-4">
+    The education sector presents innumerable and unique opportunities that other sectors do not have. By becoming a part of this sector, you not only earn a respectable living but also play an important role in contributing to the development of society.
+  </p>
+  <p class="text-gray-700 max-w-4xl mb-4">
+    Currently, HANSVAHINI Education and Social Welfare Foundation is offering Computer Training Institute Franchisee to existing computer education centres that are running independently. If you have the desired infrastructure and an ideal location, you can be a part of India’s popular training institute as an authorized training centre.
+  </p>
+  <p class="text-gray-700 max-w-4xl mb-4">
+    By becoming a part of the HANSVAHINI Franchise, you will start imparting knowledge and producing world-class professionals, opening new vistas and opportunities for yourself. With over 10 years of experience in this field, association with us will ensure a constant flow of business and the satisfaction of nurturing prospective professionals.
+  </p>
+  <p class="text-gray-700 max-w-4xl mb-4">
+    Imagine the rewards and benefits of being associated with a banner that is already a market leader. Without a huge investment in computer training and education, you can leverage your current infrastructure to become part of an ISO 9001:2015 certified brand, which is available soon in 29 states and 7 Union Territories in India, with more than 950 authorized training centres across the country.
+  </p>
+</article>
+
+
+    <article id="instant-apply" class="mb-8">
+      <h4 class="text-2xl font-semibold mb-2 text-blue-800">Instant Apply</h4>
+      <p class="text-gray-700 max-w-4xl">Fill out our online application with ease and begin your journey towards becoming a valued Hansvahini franchise.</p>
+      <button class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded shadow transition">
+        Apply Now
+      </button>
+    </article>
+
+    <article id="branch-login" class="mb-8">
+      <h4 class="text-2xl font-semibold mb-2 text-blue-800">Branch Login</h4>
+      <p class="text-gray-700 max-w-4xl">Existing franchise branches can securely login to manage their resources, courses, and student progress.</p>
+      <button class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded shadow transition">
+        Branch Login
+      </button>
+    </article>
+  </section>
+
+  <!-- Student Section -->
+  <section id="student" class="bg-blue-50 py-20 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-3xl font-bold text-blue-700 mb-12 border-b-4 border-blue-600 w-fit pb-2">Student</h3>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <!-- Certificate Verification -->
+  <article id="certificate-verification" class="bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+    <h4 class="font-semibold text-xl text-blue-800 mb-2">Certificate Verification</h4>
+    <p class="text-gray-700">Verify the authenticity of certificates issued by Hansvahini Foundation to students.</p>
+    <form class="mt-4">
+      <label for="enrollment-no" class="block text-gray-700">Check Your Certificate by Enrollment No:</label>
+      <input type="text" id="enrollment-no" placeholder="Enter Enrollment No" class="border border-gray-300 rounded w-full p-2 mt-1" required />
+      <button type="submit" class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded transition">Verify Now</button>
+    </form>
+  </article>
+
+  <!-- Certification Process -->
+  <article id="certification-process" class="bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+    <h4 class="font-semibold text-xl text-blue-800 mb-2">Certification Process</h4>
+    <p class="text-gray-700">Certificates/Diplomas will be awarded by the Head Office of HANSVAHINI after successful completion of the course and exam, valid all over India.</p>
+    <p class="text-gray-700 mt-2">Minimum qualifying marks:</p>
+    <ul class="list-disc list-inside text-gray-700 mt-1">
+      <li>Diploma Course: 40%</li>
+      <li>Certificate Course: 50%</li>
+      <li>Professional: 50%</li>
+    </ul>
+    <p class="text-gray-700 mt-2">Grades based on percentage:</p>
+    <ul class="list-disc list-inside text-gray-700 mt-1">
+      <li>A+: >= 75%</li>
+      <li>A: >= 60% to < 75%</li>
+      <li>B: >= 50% to < 60%</li>
+      <li>C: >= 40% to < 50%</li>
+    </ul>
+    <p class="text-gray-700 mt-2">Re-examination available for students scoring less than 50%.</p>
+    <button class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded transition">Learn More</button>
+  </article>
+
+  <!-- Enrolment Status -->
+  <article id="enrolment-status" class="bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+    <h4 class="font-semibold text-xl text-blue-800 mb-2">Enrolment Status</h4>
+    <p class="text-gray-700">Check the status of your current course enrolment and progress reports.</p>
+    <form class="mt-4">
+      <label for="enrollment-status" class="block text-gray-700">Enrollment No:</label>
+      <input type="text" id="enrollment-status" placeholder="Enter Enrollment No" class="border border-gray-300 rounded w-full p-2 mt-1" required />
+      <button type="submit" class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded transition">Check Now</button>
+    </form>
+  </article>
+
+  <!-- Registration Process -->
+  <article id="registration-process" class="bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+    <h4 class="font-semibold text-xl text-blue-800 mb-2">Registration Process</h4>
+    <p class="text-gray-700">General instructions for registration:</p>
+    <ul class="list-disc list-inside text-gray-700 mt-1">
+      <li>Visit your nearest HANSVAHINI centre for counseling.</li>
+      <li>Fill the application form provided with the prospectus.</li>
+      <li>Ensure all details are correct and submit with relevant documents.</li>
+      <li>ID Cards will be issued by the head office after processing.</li>
+    </ul>
+    <button class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded transition">Register</button>
+  </article>
+
+  <!-- Student Help Desk -->
+  <article id="student-help-desk" class="bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+    <h4 class="font-semibold text-xl text-blue-800 mb-2">Student Help Desk</h4>
+    <p class="text-gray-700">Get assistance with your studies, course material, technical issues, and other inquiries.</p>
+    <p class="text-gray-700 mt-2">At HANSVAHINI, we strive to satisfy all student needs through our Help Desk.</p>
+    <button class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded transition">Drop Your Query</button>
+  </article>
+
+  <!-- Student Login -->
+  <article id="student-login" class="bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+    <h4 class="font-semibold text-xl text-blue-800 mb-2">Student Login</h4>
+    <p class="text-gray-700">Access your personalized dashboard to track performance and communicate with mentors.</p>
+    <form class="mt-4">
+      <label for="username" class="block text-gray-700">Username:</label>
+      <input type="text" id="username" placeholder="Enrollment Username" class="border border-gray-300 rounded w-full p-2 mt-1" required />
+      <label for="password" class="block text-gray-700 mt-2">Password:</label>
+      <input type="password" id="password" placeholder="Your strong password" class="border border-gray-300 rounded w-full p-2 mt-1" required />
+      <button type="submit" class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded transition">Login</button>
+    </form>
+  </article>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Media Room Section -->
+  <section id="media-room" class="max-w-7xl mx-auto px-6 md:px-12 py-20">
+    <h3 class="text-3xl font-bold text-blue-700 mb-8 border-b-4 border-blue-600 w-fit pb-2">Media Room</h3>
+
+    <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+      <article id="electronic-media">
+        <h4 class="text-2xl font-semibold text-blue-800 mb-3">Electronic Media</h4>
+        <p class="text-gray-700 max-w-xl mb-4">Radio shows and TV appearances covering the foundation's initiatives and successes.</p>
+        <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded overflow-hidden shadow">
+          <img src="image/em.webp" alt="Electronic media broadcast studio with microphones and studio lights" class="w-full h-full object-cover" 
+           onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f5de3784-5020-4168-895c-81cfa0acc5ff.png';" />
+        </div>
+      </article>
+
+      <article id="news-event">
+        <h4 class="text-2xl font-semibold text-blue-800 mb-3">News & Event</h4>
+        <p class="text-gray-700 max-w-xl mb-4">Stay updated with the latest news articles and upcoming events organized by Hansvahini Foundation.</p>
+        <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded overflow-hidden shadow">
+          <img src="image/pc.jpg" alt="Group of people attending an outdoor community event with banners and smiles" class="w-full h-full object-cover"
+           onerror="this.onerror=null;this.src='https://placehold.co/640x360/png?text=Unavailable';" />
+        </div>
+      </article>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 mt-16 max-w-7xl mx-auto">
+      <article id="photo-gallery">
+        <h4 class="text-2xl font-semibold text-blue-800 mb-3">Photo Gallery</h4>
+        <div class="grid grid-cols-3 gap-2 rounded shadow overflow-hidden">
+          <img src="image/a.jpg" alt="Smiling students sitting in a classroom learning on laptops" class="object-cover w-full h-24" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/be058316-af43-4a8c-ba5a-82de2a7c1f26.png';" />
+          <img src="image/b.jpg" alt="Hansvahini volunteers distributing books to children in rural area" class="object-cover w-full h-24" onerror="this.onerror=null;this.src='https://placehold.co/300x200/png?text=Missing+Image';" />
+           <img src="image/c.jpg" alt="Smiling students sitting in a classroom learning on laptops" class="object-cover w-full h-24" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/be058316-af43-4a8c-ba5a-82de2a7c1f26.png';" />
+          <img src="image/d.jpg" alt="Hansvahini volunteers distributing books to children in rural area" class="object-cover w-full h-24" onerror="this.onerror=null;this.src='https://placehold.co/300x200/png?text=Missing+Image';" />
+          <img src="image/e.jpg" alt="Community workshop with instructor explaining educational content on whiteboard" class="object-cover w-full h-24" onerror="this.onerror=null;this.src='https://placehold.co/300x200/png?text=Missing+Image';" />
+          <img src="image/b.jpg" alt="Community workshop with instructor explaining educational content on whiteboard" class="object-cover w-full h-24" onerror="this.onerror=null;this.src='https://placehold.co/300x200/png?text=Missing+Image';" />
+        </div>
+      </article>
+
+      <article id="print-media">
+        <h4 class="text-2xl font-semibold text-blue-800 mb-3">Print Media</h4>
+        <p class="text-gray-700 max-w-xl">Brochures, pamphlets and press releases describing our foundation's mission and achievements.</p>
+        <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded overflow-hidden shadow">
+          <img src="image/pm.jpg" alt="Close-up of printed brochures and leaflets showing Hansvahini logo and educational content" class="w-full h-full object-cover"
+           onerror="this.onerror=null;this.src='https://placehold.co/640x360/png?text=Unavailable';" />
+        </div>
+      </article>
+
+      <article id="video-gallery">
+        <h4 class="text-2xl font-semibold text-blue-800 mb-3">Video Gallery</h4>
+        <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded overflow-hidden shadow">
+          <img src="image/vg.jpg" alt="Video player interface showing educational workshop with people participating actively" class="w-full h-full object-cover"
+           onerror="this.onerror=null;this.src='https://placehold.co/640x360/png?text=Unavailable';" />
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact-us" class="bg-blue-700 text-white py-20 px-6 md:px-12">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-8 border-b-4 border-white w-fit mx-auto pb-2">Contact Us</h3>
+      <p class="text-lg md:text-xl font-semibold mb-6 select-text">
+        <span class="block">Phone: <a href="tel:+917004711806" class="underline hover:text-gray-300">+91-7004711806</a>, <a href="tel:+918862873929" class="underline hover:text-gray-300">+91-8862873929</a></span>
+        <span class="block">Email: <a href="mailto:foundationhansvahini@gmail.com" class="underline hover:text-gray-300">foundationhansvahini@gmail.com</a></span>
+        <span class="block mt-4 text-sm">NGO Registration No: BR/2020/0257459 | Govt. Of India</span>
+        <span class="block text-sm">CIN: U85310BR2020NPL045512</span>
+      </p>
+      <form id="contact-form" class="mt-10 max-w-3xl mx-auto border border-white rounded-lg p-6 bg-blue-600 bg-opacity-80 shadow-lg" novalidate>
+        <div class="mb-4 text-left">
+          <label for="name" class="block mb-1 font-semibold">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required class="w-full rounded border border-white px-3 py-2 text-blue-900 focus:outline-none focus:ring-2 focus:ring-white" />
+          <p class="mt-1 text-xs text-red-300 hidden" id="name-error">Please enter your name.</p>
+        </div>
+        <div class="mb-4 text-left">
+          <label for="email" class="block mb-1 font-semibold">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required class="w-full rounded border border-white px-3 py-2 text-blue-900 focus:outline-none focus:ring-2 focus:ring-white" />
+          <p class="mt-1 text-xs text-red-300 hidden" id="email-error">Please enter a valid email.</p>
+        </div>
+        <div class="mb-4 text-left">
+          <label for="message" class="block mb-1 font-semibold">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required class="w-full rounded border border-white px-3 py-2 text-blue-900 focus:outline-none focus:ring-2 focus:ring-white"></textarea>
+          <p class="mt-1 text-xs text-red-300 hidden" id="message-error">Please enter your message.</p>
+        </div>
+        <button type="submit" class="w-full bg-white text-blue-700 font-bold py-3 rounded hover:bg-gray-100 transition">Send Message</button>
+        <p id="form-message" aria-live="polite" class="mt-4 text-center font-semibold"></p>
+      </form>
+    </div>
+  </section>
+</main>
+ <footer class="bg-gray-900 text-gray-300 py-12">
+  <div class="container mx-auto px-4">
+    <div class="grid md:grid-cols-4 gap-8 mb-8">
+      <div>
+        <div class="flex items-center mb-4">
+          <img src="image/icon.webp" alt="Hansvahini Education logo featuring digital literacy theme with computer and book elements" class="mr-3 h-10">
+          <h3 class="text-xl font-bold text-white">Hansvahini Education</h3>
+        </div>
+        <p class="mb-4">The institution started off with the idea of making all of India digitally literate. It has now established a network of 950+ computer training centres across the country.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="w-10 h-10 rounded-full bg-gray-800 hover:bg-blue-600 text-white flex items-center justify-center transition">
+            <svg xmlns="https://www.facebook.com/HansvahiniConventSchool" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-gray-800 hover:bg-blue-400 text-white flex items-center justify-center transition">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-gray-800 hover:bg-pink-600 text-white flex items-center justify-center transition">
+            <svg xmlns="https://www.instagram.com/foundationhansvahini_official/#" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-gray-800 hover:bg-red-600 text-white flex items-center justify-center transition">
+            <svg xmlns="https://www.youtube.com/@hansvahinifoundation1474" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold text-white mb-4">Useful Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+          <li><a href="#courses" class="hover:text-white transition">Courses</a></li>
+          <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
+          <li><a href="#franchise" class="hover:text-white transition">Franchise</a></li>
+          <li><a href="#sitemap" class="hover:text-white transition">Sitemap</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold text-white mb-4">Policies</h4>
+        <ul class="space-y-2">
+          <li><a href="#terms" class="hover:text-white transition">Terms & Conditions</a></li>
+          <li><a href="#privacy-policy" class="hover:text-white transition">Privacy Policy</a></li>
+          <li><a href="#refund-cancellation" class="hover:text-white transition">Refund & Cancellation Policy</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold text-white mb-4">Contact Us</h4>
+        <div class="space-y-3">
+          <div>
+            <p class="font-medium text-gray-400">Head Office:</p>
+            <p>Main Road Alampur Bazar, Inside Petrol Pump, Alampur Dist-Rohtas, Sasaram Bihar-821113</p>
+          </div>
+          <div>
+            <p class="font-medium text-gray-400">Branch Office:</p>
+            <p>Priya Computer Institute, Main Road Raipur Chor, Dist-Rohtas, Sasaram Bihar-821113</p>
+          </div>
+          <div>
+            <p class="font-medium text-gray-400">Email:</p>
+            <a href="mailto:foundationhansvahini@gmail.com" class="hover:text-white transition">foundationhansvahini@gmail.com</a>
+          </div>
+          <div>
+            <p class="font-medium text-gray-400">Phone:</p>
+            <p>7004711806, 8862873929</p>
+          </div>
+          <div>
+            <p class="font-medium text-gray-400">Opening Hours:</p>
+            <p>7am-7pm Mon – Sat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="pt-8 border-t border-gray-800 text-center">
+      <p>&copy; 2025 HANSVAHINI EDUCATION. All Rights Reserved. Designed by <a href="https://deepanshu.bio/" class="text-blue-400 hover:text-white transition">Deepanshu Agrahari</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
